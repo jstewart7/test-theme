@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Odio euismod lacinia at quis risus. Cras pulvinar mattis nunc sed blandit libero. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Diam sollicitudin tempor id eu nisl. Pellentesque elit ullamcorper dignissim cras tincidunt. Nisl vel pretium lectus quam. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Arcu cursus vitae congue mauris rhoncus aenean vel. Pulvinar elementum integer enim neque volutpat ac. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Morbi quis commodo odio aenean. Vel facilisis volutpat est velit egestas dui. Lacinia at quis risus sed vulputate odio ut enim. Ullamcorper eget nulla facilisi etiam dignissim. Sed viverra ipsum nunc aliquet bibendum enim.
