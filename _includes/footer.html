@@ -24,30 +24,36 @@
   {% endif %}
 
 {% if paginator %}
-  {% if paginator.next_page %}
-    <a href="{{site.url}}/page{{paginator.next_page}}" class="older">
-      <i class="fas fa-caret-left"></i>
-    </a>
-  {% else %}
-    <span class="no_next">
-      <i class="fas fa-caret-left"></i>
-    </span>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
     <a href="{{site.url}}/" class="newer">
-        <i class="fas fa-caret-right"></i>
+        <i class="fas fa-caret-left"></i>
     </a>
     {% else %}
       <a href="{{site.url}}/page{{paginator.previous_page}}" class="newer">
-        <i class="fas fa-caret-right"></i>
+        <i class="fas fa-caret-left"></i>
       </a>
     {% endif %}
   {% else %}
     <span class="no_prev">
+      <i class="fas fa-caret-left"></i>
+    </span>
+  {% endif %}
+
+    <span style="font-size:20px;position:relative;bottom:5px;">
+      {{paginator.page}}/{{paginator.total_pages}}
+    </span>
+
+  {% if paginator.next_page %}
+    <a href="{{site.url}}/page{{paginator.next_page}}" class="older">
+      <i class="fas fa-caret-right"></i>
+    </a>
+  {% else %}
+    <span class="no_next">
       <i class="fas fa-caret-right"></i>
     </span>
   {% endif %}
+
 {%  endif %}
 </div>
 
