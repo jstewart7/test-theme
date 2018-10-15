@@ -17,6 +17,16 @@
   margin-bottom:60px;
 }
 
+@media(max-width:768px) {
+    .container {
+        width:90%;
+        width: 60%;
+        margin: 0 auto;
+        padding: 0 20px;
+        margin-bottom:60px;
+    }
+}
+
 a {
   color: black;
   text-decoration: underline;
